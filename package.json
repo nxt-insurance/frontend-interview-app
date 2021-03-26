@@ -23,12 +23,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "lint": "eslint ./ --ext ts,tsx,js --cache"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "eslint:recommended"
     ]
   },
   "browserslist": {
