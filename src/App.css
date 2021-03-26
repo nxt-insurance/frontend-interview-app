@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #B9E3BD;
+  background-color: #b9e3bd;
   height: 100vmin;
 }
 
@@ -27,12 +27,12 @@
 
 .App-banner {
   width: 100%;
-  background-color: #173C2C;
+  background-color: #173c2c;
   color: white;
 }
 
 .App-link {
-  color: #163C2C;
+  color: #163c2c;
 }
 
 @keyframes App-logo-spin {
